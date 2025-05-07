@@ -47,7 +47,7 @@ Plugin to improve viewing Markdown files in Neovim
 # Requirements
 
 - Neovim `>= 0.9.0` (minimum) `>= 0.10.0` (recommended)
-- Nerd font symbols: [more details](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Fonts)
+- Nerd font symbols: [more details](https://github.com/dfosterj/render-markdown.nvim/wiki/Fonts)
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) parsers:
   - [markdown & markdown_inline](https://github.com/tree-sitter-grammars/tree-sitter-markdown):
     Used to parse `markdown` files
@@ -68,7 +68,7 @@ Plugin to improve viewing Markdown files in Neovim
 
 ```lua
 {
-    'MeanderingProgrammer/render-markdown.nvim',
+    'dfosterj/render-markdown.nvim',
     dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
     -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
     -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
@@ -80,7 +80,7 @@ Plugin to improve viewing Markdown files in Neovim
 
 ## rocks.nvim
 
-This plugin is available on [LuaRocks](https://luarocks.org/modules/MeanderingProgrammer/render-markdown.nvim)
+This plugin is available on [LuaRocks](https://luarocks.org/modules/dfosterj/render-markdown.nvim)
 
 ```vim
 :Rocks install render-markdown.nvim
@@ -90,7 +90,7 @@ This plugin is available on [LuaRocks](https://luarocks.org/modules/MeanderingPr
 
 ```lua
 use({
-    'MeanderingProgrammer/render-markdown.nvim',
+    'dfosterj/render-markdown.nvim',
     after = { 'nvim-treesitter' },
     requires = { 'echasnovski/mini.nvim', opt = true }, -- if you use the mini.nvim suite
     -- requires = { 'echasnovski/mini.icons', opt = true }, -- if you use standalone mini plugins
@@ -163,7 +163,7 @@ require('render-markdown').setup({
 
 # Setup
 
-Checkout the [Wiki](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki)
+Checkout the [Wiki](https://github.com/dfosterj/render-markdown.nvim/wiki)
 for examples and images associated with different configuration options.
 
 The full default configuration is provided below for reference.
@@ -874,7 +874,7 @@ We use the following definitions when discussing indexing into lists:
 
 ## Headings
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Headings)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Headings)
 
 <details>
 
@@ -976,7 +976,7 @@ require('render-markdown').setup({
 
 ## Paragraphs
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Paragraphs)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Paragraphs)
 
 <details>
 
@@ -1011,7 +1011,7 @@ require('render-markdown').setup({
 
 ## Code Blocks
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/CodeBlocks)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/CodeBlocks)
 
 <details>
 
@@ -1098,7 +1098,7 @@ require('render-markdown').setup({
 
 ## Dashed Line
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/DashedLine)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/DashedLine)
 
 <details>
 
@@ -1132,7 +1132,7 @@ require('render-markdown').setup({
 
 ## List Bullets
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/ListBullets)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/ListBullets)
 
 <details>
 
@@ -1187,7 +1187,7 @@ require('render-markdown').setup({
 
 ## Checkboxes
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Checkboxes)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Checkboxes)
 
 <details>
 
@@ -1240,7 +1240,7 @@ require('render-markdown').setup({
 
 ## Block Quotes
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/BlockQuotes)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/BlockQuotes)
 
 <details>
 
@@ -1282,7 +1282,7 @@ require('render-markdown').setup({
 
 ## Tables
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Tables)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Tables)
 
 <details>
 
@@ -1344,7 +1344,7 @@ require('render-markdown').setup({
 
 ## Callouts
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Callouts)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Callouts)
 
 <details>
 
@@ -1397,7 +1397,7 @@ require('render-markdown').setup({
 
 ## Links
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Links)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Links)
 
 <details>
 
@@ -1468,7 +1468,7 @@ require('render-markdown').setup({
 
 ## Signs
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Signs)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Signs)
 
 <details>
 
@@ -1489,7 +1489,7 @@ require('render-markdown').setup({
 
 ## Indent
 
-[Wiki Page](https://github.com/MeanderingProgrammer/render-markdown.nvim/wiki/Indent)
+[Wiki Page](https://github.com/dfosterj/render-markdown.nvim/wiki/Indent)
 
 <details>
 
@@ -1612,12 +1612,12 @@ The table below shows all the highlight groups with their default link
 >
 > You can also do something more custom like lazy loading this plugin via a command
 > and adding logic to the config method to disable `obsidian.nvim` as suggested in
-> [#116](https://github.com/MeanderingProgrammer/render-markdown.nvim/issues/116),
+> [#116](https://github.com/dfosterj/render-markdown.nvim/issues/116),
 > though things like this can break at any time given the reliance on internal logic:
 >
 > ```lua
 > return {
->     'MeanderingProgrammer/render-markdown.nvim',
+>     'dfosterj/render-markdown.nvim',
 >     cmd = { 'RenderMarkdown' },
 >     dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' },
 >     config = function()
